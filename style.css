@@ -1,0 +1,101 @@
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  margin:0;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:15px 40px;
+  border-bottom:1px solid #eee;
+  background:#fff;
+}
+
+.nav-left{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.nav-logo{
+  height:100px;
+}
+
+.store-name{
+  font-size:50px;
+  font-weight:1000;
+}
+
+.nav-menu{
+  display:flex;
+  gap:30px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.nav-menu li a{
+  text-decoration:none;
+  color:#000;
+  font-weight:600;
+}
+
+.nav-menu li a:hover{
+  color:#e63946;
+}
+
+.nav-icons{
+  display:flex;
+  gap:20px;
+}
+
+/* HERO */
+.new-arrivals-wrapper,
+.trending-wrapper{
+  display:flex;
+  justify-content:center;
+  margin:50px 0;
+}
+
+.new-arrivals-banner,
+.trending-banner{
+  max-width:1100px;
+  width:100%;
+  position:relative;
+}
+
+.new-arrivals-banner img{
+  width:100%;
+  height:800px;
+  object-fit:contain;
+  border-radius:18px;
+}
+
+.trending-banner img{
+  width:100%;
+  object-fit:contain;
+  border-radius:18px;
+}
+
+.new-arrivals-overlay,
+.trending-overlay{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  padding:30px 70px;
+  border-radius:14px;
+  text-align:center;
+}
+
+/* CATEGORY */
+.cat-img{
+  width:100%;
+  max-height:260px;
+  object-fit:contain;
+  border-radius:14px;
+}
